@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(235, 235, 235);
+    display: inline;
+    justify-content: center;
+}
+
+.contenido{
+    justify-content: center;
+    display: flex;
+}
+
+.car-card{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(235, 235, 235);
+    display: inline;
+    justify-content: center;
+}
+
+.contenido{
+    justify-content: center;
+    display: flex;
+}
+
+.container-t{
+    justify-content: center;
+    display: flex;
+}
+
+.table{
+    width: 70%;
+    border: 2px solid indigo;
+    border-radius: 25px !important;
+    align-self: center !important;
+}

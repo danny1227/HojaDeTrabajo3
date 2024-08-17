@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(235, 235, 235);
+    display: inline;
+    justify-content: center;
+}
+
+.contenido{
+    justify-content: center;
+    display: flex;
+}
+
+.card{
+    top: 40px;
+    padding-top: 50px;
+    width: 600px;
+    height: 700px;
+}

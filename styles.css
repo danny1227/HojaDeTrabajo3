@@ -1,0 +1,98 @@
+body {
+    background-color: #f0f8ff; /* Fondo claro */
+    font-family: 'Arial', sans-serif;
+}
+
+.custom-title {
+    color: #4da6a6;
+    font-weight: bold;
+    font-size: 2rem;
+    text-shadow: 1px 1px 3px rgba(180, 230, 230, 0.7); /* Sombra clara */
+    margin-bottom: 20px;
+}
+
+.custom-form, #comentarios-container {
+    background-color: #f5fdfd; /* Fondo pastel claro */
+    border: 1px solid #b3e0e0; /* Borde pastel */
+    box-shadow: 0 4px 8px rgba(180, 230, 230, 0.4), 0 6px 20px rgba(200, 230, 230, 0.3); /* Sombra suave */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+}
+
+.custom-input {
+    background-color: #e0f7fa; /* Fondo más claro */
+    border: 1px solid #b3e0e0;
+    box-shadow: inset 0 1px 3px rgba(180, 230, 230, 0.3); /* Sombras internas suaves */
+    color: #2f4f4f; /* Texto en gris oscuro */
+}
+
+.custom-input:focus {
+    border-color: #99cccc;
+    box-shadow: 0 0 5px rgba(153, 204, 204, 0.5);
+    background-color: #f0f8ff; /* Fondo más claro al enfocar */
+}
+
+.custom-input::placeholder {
+    color: #99a6a6; /* Placeholder gris claro */
+}
+
+.custom-input:focus::placeholder {
+    color: #b3bfbf; /* Placeholder más claro al enfocar */
+}
+
+.form-control, .form-control:focus {
+    color: #2f4f4f; /* Color del texto del input en gris oscuro */
+    background-color: #f5fdfd; /* Fondo claro para los inputs */
+    border-color: #b3e0e0;
+}
+
+.btn-primary {
+    background-color: #66cccc; /* Botón con color pastel */
+    border-color: #66cccc;
+    transition: background-color 0.3s ease;
+    color: #ffffff; /* Texto del botón en blanco */
+}
+
+.btn-primary:hover {
+    background-color: #55bbbb;
+    border-color: #55bbbb;
+    box-shadow: 0 4px 6px rgba(180, 230, 230, 0.4); /* Sombra clara */
+}
+
+#comentarios-container {
+    background-color: #f5fdfd; /* Fondo claro para el área de comentarios */
+    border: 1px solid #b3e0e0;
+    box-shadow: 0 4px 8px rgba(200, 230, 230, 0.4); /* Sombras claras */
+    padding: 20px; /* Espaciado interno */
+    margin-bottom: 20px; /* Espaciado entre comentarios y formulario */
+    background-image: none; /* Eliminar cualquier fondo oscuro */
+}
+
+.modal-content {
+    background-color: #e6f7f7; /* Fondo del modal en tono claro */
+    border: 1px solid #b3e0e0;
+    box-shadow: 0 4px 8px rgba(180, 230, 230, 0.4); /* Sombras claras */
+}
+
+body{
+    background-color: rgb(235, 235, 235);
+    display: inline;
+    justify-content: center;
+}
+
+.contenido{
+    justify-content: center;
+    display: flex;
+}
+
+.container-t{
+    justify-content: center;
+    display: flex;
+}
+
+.table{
+    width: 70%;
+    border: 2px solid indigo;
+    border-radius: 25px !important;
+    align-self: center !important;
+}
